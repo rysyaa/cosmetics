@@ -1,5 +1,229 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Forum", cursive;
+  font-weight: 100;
 }
+
+.section5 {
+  background-color: #f4ece6;
+}
+.section5__container {
+  width: 86vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section5__container h4 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+.section5__block_price {
+  display: flex;
+  flex-direction: row;
+  gap: 3.6rem;
+  flex-wrap: wrap;
+}
+.section5__block_topLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+  background-color: #d6c4b6;
+  padding: 3rem;
+  width: 40vw;
+  border-radius: 6%;
+}
+.section5__block_topLeft h6 {
+  font-size: 2.6rem;
+}
+.section5__block_topLeft li {
+  font-size: 2.3rem;
+  padding-bottom: 1.4rem;
+}
+.section5__block_name {
+  display: flex;
+  justify-content: space-between;
+}
+.section5__block_namePrice {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.section5__block_namePrice span {
+  font-size: 2.3rem;
+}
+.section5__block_bottom {
+  width: 100%;
+  background-color: #d6c4b6;
+  margin-top: 3rem;
+  padding: 3rem;
+  border-radius: 40px;
+}
+.section5__block_bottom h6 {
+  text-align: center;
+  font-size: 2.6rem;
+  padding-bottom: 3rem;
+}
+.section5__block_bottom li {
+  font-size: 2.3rem;
+  padding-bottom: 1.4rem;
+}
+.section5__btn {
+  margin-top: 3rem;
+  padding: 0.8rem 1.7rem;
+  background-color: #b99c87;
+  border: none;
+  border-radius: 32px;
+  font-size: 2rem;
+}
+.section6 {
+  background-color: #f4ece6;
+  padding-top: 16vh;
+}
+.section6__container {
+  width: 86vw;
+  margin: 0 auto;
+  position: relative;
+}
+.section6__leftBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.section6__leftBlock h4 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+.section6__leftBlock_text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.section6__leftBlock_text span {
+  font-size: 2rem;
+}
+.section6__rightBlock {
+  background-color: #b99c87;
+  display: flex;
+}
+.section6__rightBlock img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 40px;
+}
+.section6__rightBlock_photo1 {
+  left: 680px;
+  margin-top: 70px;
+}
+.section6__rightBlock_photo2 {
+  left: 760px;
+  margin-top: 170px;
+  z-index: 1;
+}
+.section6__rightBlock_photo3 {
+  z-index: 0;
+}
+.section7 {
+  padding-top: 16vh;
+  background-color: #f4ece6;
+}
+.section7__container {
+  width: 86vw;
+  margin: 0 auto;
+  text-align: center;
+}
+.section7__container h4 {
+  font-size: 4rem;
+  padding-bottom: 22px;
+}
+.section7__container p {
+  font-size: 2rem;
+  padding-bottom: 64px;
+}
+.section7__bottomBlock {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.section7__bottomBlock img {
+  border-radius: 40px;
+}
+
+.section8 {
+  padding-top: 16vh;
+  background-color: #f4ece6;
+}
+.section8__container {
+  width: 86vw;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.section8__container h4 {
+  font-size: 4rem;
+}
+.section8__container p {
+  font-size: 1.6rem;
+  padding-top: 64px;
+}
+.section8__photo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+}
+.section8__photo img:nth-child(2) {
+  position: absolute;
+  left: 350px;
+}
+.section8__arrowBtn {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+  padding-bottom: 4rem;
+}
+footer {
+  background-color: #d6c4b6;
+  padding-top: 16vh;
+}
+.footer__container {
+  width: 86vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.footer__leftBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: #f4ece6;
+  width: 45vw;
+  border-radius: 40px;
+  padding: 64px;
+}
+.footer__leftBlock h4 {
+  font-size: 4rem;
+}
+.footer__container iframe {
+  width: 40vw;
+  height: 45vh;
+}
+.footer__bottom{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+.footer__bottom a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
